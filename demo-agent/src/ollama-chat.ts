@@ -2,7 +2,7 @@ const OLLAMA_URL = "http://localhost:11434";
 export const MODEL = "qwen2.5";
 
 
-// custom type ChatMessage 명시 > 응답 자체를 
+// custom type ChatMessage 명시 > 응답 고정
 export type ChatMessage = {
     role: "system" | "user" | "assistant";
     content: string;
